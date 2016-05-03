@@ -1,1 +1,25 @@
 c:\users\rahmane.a\documents\visual studio 2015\Projects\FaceMatcher\FaceMatcher\bin\Debug\FaceMatcher.exe.config
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\FaceMatcher.exe.config
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\FaceMatcher.exe
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\FaceMatcher.pdb
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\Microsoft.ProjectOxford.Face.dll
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\Newtonsoft.Json.dll
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\QRCoder.dll
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\UnityEngine.dll
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\QRCoder.pdb
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\obj\Debug\FaceMatcher.csprojResolveAssemblyReference.cache
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\obj\Debug\FaceMatcher.Form1.resources
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\obj\Debug\FaceMatcher.Properties.Resources.resources
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\obj\Debug\FaceMatcher.csproj.GenerateResource.Cache
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\obj\Debug\FaceMatcher.exe
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\obj\Debug\FaceMatcher.pdb
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\AForge.Controls.dll
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\AForge.Video.dll
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\AForge.dll
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\AForge.Imaging.dll
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\AForge.Math.dll
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\AForge.Controls.xml
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\AForge.Video.xml
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\AForge.xml
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\AForge.Imaging.xml
+C:\Users\laot.r\Documents\GitHub\FaceMatcher\FaceMatcher\bin\Debug\AForge.Math.xml
