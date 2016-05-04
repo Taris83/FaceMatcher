@@ -19,17 +19,11 @@ namespace FaceMatcher {
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            try
-            {
-                var m = new Mail("sec.entrepriseautomatic@gmail.com",
-                 Chiffrement.base64EnTexte("YXplcnR5dWlvcDc1MzA="),
-                 "dsientrepriselambda@gmail.com");
-                m.Envoyer("Objet", "Corps");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            //byte[] attach = System.IO.File.ReadAllBytes(@"‪C:\Users\laot.r\Pictures\Capture.PNG");
+            //var m = new Mail("sec.entrepriseautomatic@gmail.com",
+            // Chiffrement.base64EnTexte("YXplcnR5dWlvcDc1MzA="),
+            // "dsientrepriselambda@gmail.com");
+            //m.Envoyer("Objet", "Corps", @"C:\Users\laot.r\Downloads\jpeg-home.jpg");
 
 
 
@@ -40,7 +34,7 @@ namespace FaceMatcher {
             try
             {
                 timer1.Enabled = true;
-                pictureBox1.Image = ;
+                pictureBox1.Load("http://10.10.130.60:8080/shot.jpg");
             }
             catch (Exception ex)
             {
@@ -50,7 +44,7 @@ namespace FaceMatcher {
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            pictureBox1.Image = New System.Drawing.Bitmap(New IO.MemoryStream(New System.Net.WebClient().DownloadData("http://10.10.130.60:8080/shot.jpg")));
+            pictureBox1.Load("http://10.10.130.60:8080/shot.jpg");
         }
     }
 }

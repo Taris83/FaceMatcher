@@ -18,8 +18,6 @@ namespace FaceMatcher
             return System.Convert.ToBase64String(System.Text.Encoding.Default.GetBytes(texte));
         }
 
-
-
         public static string base64EnTexte(string b64)
         {
             return System.Text.Encoding.Default.GetString(System.Convert.FromBase64String(b64));

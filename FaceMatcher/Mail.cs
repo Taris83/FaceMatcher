@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
+using System.Net.Mime;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -24,27 +25,24 @@ namespace FaceMatcher
         public void Envoyer(string objet, string corps, string chemin_attachement="")
         {
             MailMessage mail = new MailMessage();
-            SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
             mail.From = new MailAddress(_adresseSource);
             mail.To.Add(_adresseDestinataire);
             mail.Subject = objet;
             mail.Body = corps;
 
-            if (chemin_attachement.Length > 0)
-            {
-                Attachment attachment;
-                attachment = new System.Net.Mail.Attachment(chemin_attachement);
-                mail.Attachments.Add(attachment);
-            }
-            
-
+            SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
             SmtpServer.Port = 587;
             SmtpServer.Credentials = new System.Net.NetworkCredential(_adresseSource, _motdepasseSource);
             SmtpServer.EnableSsl = true;
 
+            if (chemin_attachement.Length > 0)
+                mail.Attachments.Add(new Attachment(chemin_attachement));
+
             SmtpServer.Send(mail);
 
         }
+
+       
 
     }
 }
